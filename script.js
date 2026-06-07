@@ -47,13 +47,14 @@ const isTouchDevice = window.matchMedia("(hover: none)").matches;
           'projectsSubtitle': "Some of my recent work",
           'viewCode': "View Code",
 
+
           // Project Descriptions
           'yallaworkDesc': "Job-seeking app with chat system, user profiles, and job matching algorithm",
           'veraClinicDesc': "Web application designed to manage a beauty clinic, providing features for both clinic administration and staff. It enables efficient appointment scheduling, employee management, and client tracking.",
           'todoDesc': "A mobile application for task management, allowing users to create, update, and track their to-do lists with ease. The app provides an intuitive and responsive UI for a seamless user experience.",
           'pharmaDesc': "A mobile application for pharmacy customers, allowing them to view available products, place orders, and manage their prescriptions. The app also facilitates easy communication with the pharmacy for queries and order tracking.",
           'eshtikilyDesc': "A mobile application for citizens - connecting the government and citizens directly, without intermediaries, to submit and track complaints.",
-
+'smartHospitalDesc': 'Developed and customized an Odoo ERP solution for a Smart Mobile Hospital, including role-based access control (RBAC), CRM triage workflows, inventory and maintenance management, preventive maintenance scheduling, and API-based IoT integration.',
           // Education Section
           'educationTitle': "Education",
           'educationSubtitle': "My academic journey",
@@ -127,7 +128,7 @@ const isTouchDevice = window.matchMedia("(hover: none)").matches;
           'todoDesc': "تطبيق جوال لإدارة المهام، يتيح للمستخدمين إنشاء قوائم مهامهم وتحديثها ومتابعتها بسهولة. يوفر التطبيق واجهة مستخدم سهلة الاستخدام وسريعة الاستجابة لتجربة استخدام سلسة.",
           'pharmaDesc': "تطبيق جوال لعملاء الصيدلية، يتيح لهم الاطلاع على المنتجات المتوفرة، وتقديم الطلبات، وإدارة وصفاتهم الطبية. كما يُسهّل التطبيق التواصل مع الصيدلية للاستفسارات وتتبع الطلبات.",
           'eshtikilyDesc': "تطبيق جوال للمواطنين - يربط الحكومة والمواطنين مباشرة، دون وسطاء، لتقديم الشكاوى ومتابعتها.",
-
+'smartHospitalDesc': 'تطوير وتخصيص نظام Odoo ERP لمستشفى ذكي متنقل، بما يشمل إدارة الصلاحيات (RBAC)، وسير العمل في CRM، وإدارة المخزون والصيانة، والصيانة الوقائية، والتكامل مع واجهات API لمحاكاة أجهزة IoT الطبية.',
           // Education Section
           'educationTitle': "التعليم",
           'educationSubtitle': "رحلتي الأكاديمية",
@@ -233,7 +234,7 @@ updateTypingText() {
   if (window.portfolioTypingAnimation) {
     window.portfolioTypingAnimation.updatePhrases([
       this.translate('softwareEngineeringStudent'),
-      this.translate('frontendDeveloper')
+      this.translate('frontendDeveloper'),
     ]);
   }
 }
@@ -368,7 +369,9 @@ updateTypingText() {
       // Typing animation
       const phrases = [
         this.translationManager.translate('softwareEngineeringStudent'),
-        this.translationManager.translate('frontendDeveloper')
+        this.translationManager.translate('frontendDeveloper'),
+
+
       ];
 
       this.typingAnimation = new TypingAnimation("typed-text");
