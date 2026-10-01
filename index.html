@@ -2,18 +2,43 @@
 <html lang="en" data-lang="en">
 <head>
   <meta charset="UTF-8">
+
   <title>Ghina Alnouimi – Software Engineer</title>
 
-  <meta name="description" content="Portfolio of Ghina Alnouimi – Software Engineering Student and Flutter Developer.">
-  <meta name="author" content="Ghina Ghassan Alnouimi">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+          name="description"
+          content="Portfolio of Ghina Alnouimi – Information Technology Engineering graduate specializing in Software Engineering and Flutter development."
+  >
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+  <meta
+          name="author"
+          content="Ghina Ghassan Alnouimi"
+  >
+
+  <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+  >
+
+  <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
+  >
+
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  >
+
+  <link
+          rel="stylesheet"
+          href="style.css"
+  >
 </head>
 
+
 <body>
+
 <script>
   if (window.matchMedia("(hover: none)").matches) {
     document.documentElement.classList.add("is-touch");
@@ -22,433 +47,1587 @@
   }
 </script>
 
+
 <header>
+
   <nav id="navbar">
+
     <div class="logo">
-      <p data-translate="portfolioTitle">Ghina's Portfolio</p>
-      <span class="logo-sub" data-translate="softwareEngineer">Software Engineer</span>
+
+      <p data-translate="portfolioTitle">
+        Ghina's Portfolio
+      </p>
+
+      <span
+              class="logo-sub"
+              data-translate="softwareEngineer"
+      >
+        Software Engineer & Flutter Developer
+      </span>
+
     </div>
 
-    <button class="menu-toggle" id="menu-toggle">
+
+    <button
+            class="menu-toggle"
+            id="menu-toggle"
+    >
       <i class="fas fa-bars"></i>
     </button>
 
-    <ul id="menu" class="menu-list">
-      <li><a data-scroll="#home" class="nav-link active"><i class="fas fa-home"></i> <span data-translate="home">Home</span></a></li>
-      <li><a data-scroll="#about" class="nav-link"><i class="fas fa-user"></i> <span data-translate="about">About</span></a></li>
-      <li><a data-scroll="#skills" class="nav-link"><i class="fas fa-code"></i> <span data-translate="skills">Skills</span></a></li>
-      <li><a data-scroll="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> <span data-translate="projects">Projects</span></a></li>
-      <li><a data-scroll="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> <span data-translate="education">Education</span></a></li>
-      <li><a data-scroll="#contact" class="nav-link"><i class="fas fa-envelope"></i> <span data-translate="contact">Contact</span></a></li>
-      <li><a href="resume/Ghina_Alnouimi.pdf" target="_blank" class="resume-btn"><i class="fas fa-file-alt"></i> <span data-translate="resume">Resume</span></a></li>
 
-      <!-- Globe Icon Toggle -->
+    <ul
+            id="menu"
+            class="menu-list"
+    >
+
       <li>
-        <img src="icons/utils/language-translate-svgrepo-com.svg" id="lang-toggle" class="lang-icon" alt="Language">
+        <a
+                data-scroll="#home"
+                class="nav-link active"
+        >
+          <i class="fas fa-home"></i>
+          <span data-translate="home">
+            Home
+          </span>
+        </a>
+      </li>
+
+
+      <li>
+        <a
+                data-scroll="#about"
+                class="nav-link"
+        >
+          <i class="fas fa-user"></i>
+          <span data-translate="about">
+            About
+          </span>
+        </a>
+      </li>
+
+
+      <li>
+        <a
+                data-scroll="#skills"
+                class="nav-link"
+        >
+          <i class="fas fa-code"></i>
+          <span data-translate="skills">
+            Skills
+          </span>
+        </a>
+      </li>
+
+
+      <li>
+        <a
+                data-scroll="#projects"
+                class="nav-link"
+        >
+          <i class="fas fa-project-diagram"></i>
+          <span data-translate="projects">
+            Projects
+          </span>
+        </a>
+      </li>
+
+
+      <li>
+        <a
+                data-scroll="#education"
+                class="nav-link"
+        >
+          <i class="fas fa-graduation-cap"></i>
+          <span data-translate="education">
+            Education
+          </span>
+        </a>
+      </li>
+
+
+      <li>
+        <a
+                data-scroll="#contact"
+                class="nav-link"
+        >
+          <i class="fas fa-envelope"></i>
+          <span data-translate="contact">
+            Contact
+          </span>
+        </a>
+      </li>
+
+
+      <li>
+
+        <a
+                href="resume/Ghina_Alnouimi.pdf"
+                target="_blank"
+                class="resume-btn"
+        >
+          <i class="fas fa-file-alt"></i>
+
+          <span data-translate="resume">
+            Resume
+          </span>
+        </a>
+
+      </li>
+
+
+      <!-- Language Toggle -->
+
+      <li>
+
+        <img
+                src="icons/utils/language-translate-svgrepo-com.svg"
+                id="lang-toggle"
+                class="lang-icon"
+                alt="Language"
+        >
+
       </li>
 
     </ul>
+
   </nav>
+
 </header>
+
+
 
 <main>
 
-  <!-- HOME -->
-  <section id="home" class="section">
+
+  <!-- =========================
+       HOME
+  ========================== -->
+
+  <section
+          id="home"
+          class="section"
+  >
+
     <div class="home-content">
+
+
       <div class="left">
+
         <div class="intro-text">
-          <span class="greeting" data-translate="greeting">Hello, I'm</span>
-          <h1 id="name-en">Ghina Ghassan Alnouimi</h1>
-          <h1 id="name-ar" class="hidden">غنى غسان النعيمي</h1>
+
+          <span
+                  class="greeting"
+                  data-translate="greeting"
+          >
+            Hello, I'm
+          </span>
+
+
+          <h1 id="name-en">
+            Ghina Ghassan Alnouimi
+          </h1>
+
+
+          <h1
+                  id="name-ar"
+                  class="hidden"
+          >
+            غنى غسان النعيمي
+          </h1>
+
 
           <div class="subtitle">
+
             <span id="typed-text"></span>
-            <span class="cursor">|</span>
+
+            <span class="cursor">
+              |
+            </span>
+
           </div>
 
         </div>
 
+
+        <!-- Social -->
+
         <div id="social">
-          <a href="mailto:ghinwano003@gmail.com?subject=Contact from Portfolio&body=Hello Ghina,">
-            <img src="icons/accounts/gmail-svgrepo-com.svg" class="account-svg" alt="Email">
+
+
+          <a
+                  href="mailto:ghinwano003@gmail.com?subject=Contact from Portfolio&body=Hello Ghina,"
+          >
+            <img
+                    src="icons/accounts/gmail-svgrepo-com.svg"
+                    class="account-svg"
+                    alt="Email"
+            >
           </a>
 
-          <a href="https://github.com/GhinaNo" class="social-icon" target="_blank">
-            <img src="icons/accounts/github.svg" class="account-svg" alt="GitHub">
+
+          <a
+                  href="https://github.com/GhinaNo"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+          >
+            <img
+                    src="icons/accounts/github.svg"
+                    class="account-svg"
+                    alt="GitHub"
+            >
           </a>
 
-          <a href="https://www.linkedin.com/in/ghina-alnouimi-593019396" class="social-icon" target="_blank">
-            <img src="icons/accounts/linkedin-svgrepo-com.svg" class="account-svg" alt="LinkedIn">
+
+          <a
+                  href="https://www.linkedin.com/in/ghina-alnouimi-593019396"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+          >
+            <img
+                    src="icons/accounts/linkedin-svgrepo-com.svg"
+                    class="account-svg"
+                    alt="LinkedIn"
+            >
           </a>
 
-          <a href="https://www.instagram.com/ghina.al.nouimi" class="social-icon" target="_blank">
-            <img src="icons/accounts/instagram-167-svgrepo-com.svg" class="account-svg" alt="Instagram">
+
+          <a
+                  href="https://www.instagram.com/ghina.al.nouimi"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+          >
+            <img
+                    src="icons/accounts/instagram-167-svgrepo-com.svg"
+                    class="account-svg"
+                    alt="Instagram"
+            >
           </a>
 
-          <a href="https://www.facebook.com/share/17ocVYd8sd/" class="social-icon" target="_blank">
-            <img src="icons/accounts/facebook-svgrepo-com.svg" class="account-svg" alt="Facebook">
+
+          <a
+                  href="https://www.facebook.com/share/17ocVYd8sd/"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+          >
+            <img
+                    src="icons/accounts/facebook-svgrepo-com.svg"
+                    class="account-svg"
+                    alt="Facebook"
+            >
           </a>
 
-          <a href="https://t.me/GhinaAlnouimi" class="social-icon" target="_blank">
-            <img src="icons/accounts/telegram-logo-thin-svgrepo-com.svg" class="account-svg" alt="Telegram">
+
+          <a
+                  href="https://t.me/GhinaAlnouimi"
+                  class="social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+          >
+            <img
+                    src="icons/accounts/telegram-logo-thin-svgrepo-com.svg"
+                    class="account-svg"
+                    alt="Telegram"
+            >
           </a>
+
         </div>
+
+
+        <!-- CTA -->
 
         <div class="cta-buttons">
-          <a href="#contact" class="btn primary-btn" data-scroll="#contact">
-            <span data-translate="contactMe">Contact Me</span>
+
+          <a
+                  href="#contact"
+                  class="btn primary-btn"
+                  data-scroll="#contact"
+          >
+            <span data-translate="contactMe">
+              Contact Me
+            </span>
           </a>
-          <a href="#projects" class="btn secondary-btn" data-scroll="#projects">
-            <span data-translate="viewProjects">View Projects</span>
+
+
+          <a
+                  href="#projects"
+                  class="btn secondary-btn"
+                  data-scroll="#projects"
+          >
+            <span data-translate="viewProjects">
+              View Projects
+            </span>
           </a>
+
         </div>
+
       </div>
+
+
+      <!-- Profile -->
 
       <div class="right">
+
         <div class="profile-container">
-          <img src="Screenshot/me.png" id="profile" class="profile-img" alt="Ghina Alnouimi">
+
+          <img
+                  src="Screenshot/me.png"
+                  id="profile"
+                  class="profile-img"
+                  alt="Ghina Alnouimi"
+          >
+
           <div class="profile-bg"></div>
-<!--          <div class="floating-elements">-->
-<!--            <span class="flutter-icon"><i class="fas fa-mobile-alt"></i></span>-->
-<!--            <span class="dart-icon"><i class="fas fa-code"></i></span>-->
-<!--          </div>-->
+
         </div>
+
       </div>
+
     </div>
+
   </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <h2 class="section-title" data-translate="aboutTitle">About Me</h2>
-    <div class="section-subtitle" data-translate="aboutSubtitle">Get to know me better</div>
+
+
+  <!-- =========================
+       ABOUT
+  ========================== -->
+
+  <section
+          id="about"
+          class="section"
+  >
+
+    <h2
+            class="section-title"
+            data-translate="aboutTitle"
+    >
+      About Me
+    </h2>
+
+
+    <div
+            class="section-subtitle"
+            data-translate="aboutSubtitle"
+    >
+      Get to know me better
+    </div>
+
 
     <div class="about-box fade-in">
+
+
       <div class="left">
+
         <div class="image-wrapper">
-          <img src="Screenshot/me.png" class="about-img" alt="Ghina Alnouimi">
+
+          <img
+                  src="Screenshot/me.png"
+                  class="about-img"
+                  alt="Ghina Alnouimi"
+          >
+
           <div class="image-border"></div>
+
         </div>
+
 
         <ul class="info-list">
+
           <li>
+
             <i class="fas fa-birthday-cake"></i>
-            <strong data-translate="birthday">Birthday</strong>
-            <span class="birthday">9 April 2003</span>
+
+            <strong data-translate="birthday">
+              Birthday
+            </strong>
+
+            <span class="birthday">
+              9 April 2003
+            </span>
+
           </li>
+
+
           <li>
+
             <i class="fas fa-phone"></i>
-            <strong data-translate="phone">Phone</strong>
-            <span class="phone"><br>+963 962 056 061</span>
+
+            <strong data-translate="phone">
+              Phone
+            </strong>
+
+            <span class="phone">
+              <br>
+              +963 962 056 061
+            </span>
+
           </li>
+
+
           <li>
+
             <i class="fas fa-map-marker-alt"></i>
-            <strong data-translate="city">City</strong>
-            <span class="city">Daraa, Syria</span>
+
+            <strong data-translate="city">
+              City
+            </strong>
+
+            <span class="city">
+              Daraa, Syria
+            </span>
+
           </li>
+
+
           <li>
+
             <i class="fas fa-envelope"></i>
-            <strong data-translate="email">Email</strong>
-            <span class="email">ghinwano003@gmail.com</span>
+
+            <strong data-translate="email">
+              Email
+            </strong>
+
+            <span class="email">
+              ghinwano003@gmail.com
+            </span>
+
           </li>
+
         </ul>
+
       </div>
 
+
+
       <div class="right">
+
         <div class="about-text">
+
           <p data-translate="aboutText1">
-            I am a fifth-year Information Technology Engineering student at Damascus University,
-            specializing in Software Engineering. With two years of hands-on experience in Flutter development,
-            I build modern and scalable mobile applications with clean architecture and solid principles.
+
+            I am an Information Technology Engineering graduate
+            from Damascus University, specializing in Software Engineering,
+            with hands-on experience in Flutter development and software
+            engineering projects.
+
           </p>
 
+
           <p data-translate="aboutText2">
-            My passion lies in creating intuitive user interfaces and seamless user experiences.
-            I'm constantly learning new technologies and frameworks to stay updated with the latest trends
-            in mobile development, contributing to open-source projects, or learning about new tech innovations.
+
+            Throughout my university journey, I worked on projects
+            covering mobile development, distributed systems,
+            information retrieval, automation, and enterprise solutions.
+            I enjoy turning ideas into well-structured software and
+            continuously improving my technical skills through practical
+            projects and new technologies.
+
           </p>
 
         </div>
+
       </div>
+
     </div>
+
   </section>
 
-  <!-- SKILLS -->
-  <section id="skills" class="section">
-    <h2 class="section-title" data-translate="skillsTitle">Skills</h2>
-    <div class="section-subtitle" data-translate="skillsSubtitle">Technologies I work with</div>
+
+
+  <!-- =========================
+       SKILLS
+  ========================== -->
+
+  <section
+          id="skills"
+          class="section"
+  >
+
+    <h2
+            class="section-title"
+            data-translate="skillsTitle"
+    >
+      Skills
+    </h2>
+
+
+    <div
+            class="section-subtitle"
+            data-translate="skillsSubtitle"
+    >
+      Technologies I work with
+    </div>
+
+
 
     <div class="skills-grid">
 
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/dart.svg" class="skill-svg" alt="Dart">
-        </div>
-        <span>Dart</span>
-        <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
-      </div>
+
+      <!-- Dart -->
 
       <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/flutter.svg" class="skill-svg" alt="Flutter">
-        </div>
-        <span>Flutter</span>
-        <div class="skill-bar"><div class="skill-level" style="width:92%"></div></div>
-      </div>
 
-      <div class="skill-box slide-up">
         <div class="skill-icon">
-          <img src="icons/skills/java-svgrepo-com.svg" class="skill-svg" alt="Java">
-        </div>
-        <span>Java</span>
-        <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
-      </div>
 
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/cplusplus.svg" class="skill-svg" alt="C++">
-        </div>
-        <span>C++</span>
-        <div class="skill-bar"><div class="skill-level" style="width:80%"></div></div>
-      </div>
+          <img
+                  src="icons/skills/dart.svg"
+                  class="skill-svg"
+                  alt="Dart"
+          >
 
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/mysql.svg" class="skill-svg" alt="MySQL">
         </div>
-        <span>MySQL</span>
-        <div class="skill-bar"><div class="skill-level" style="width:88%"></div></div>
-      </div>
 
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/block-svgrepo-com.svg" class="skill-svg" alt="Bloc">
-        </div>
-        <span>Bloc / Cubit</span>
-        <div class="skill-bar"><div class="skill-level" style="width:87%"></div></div>
-      </div>
+        <span>
+          Dart
+        </span>
 
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/diagram-3-svgrepo-com.svg" class="skill-svg" alt="Architecture">
-        </div>
-        <span>Clean Architecture</span>
-        <div class="skill-bar"><div class="skill-level" style="width:86%"></div></div>
-      </div>
-
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/api-svgrepo-com.svg" class="skill-svg" alt="API">
-        </div>
-        <span>API Integration</span>
-        <div class="skill-bar"><div class="skill-level" style="width:89%"></div></div>
-      </div>
-
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/firebase.svg" class="skill-svg" alt="Firebase">
-        </div>
-        <span>Firebase</span>
-        <div class="skill-bar"><div class="skill-level" style="width:84%"></div></div>
-      </div>
-
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/github.svg" class="skill-svg" alt="Git">
-        </div>
-        <span>Git / GitHub</span>
-        <div class="skill-bar"><div class="skill-level" style="width:91%"></div></div>
-      </div>
-
-      <div class="skill-box slide-up">
-        <div class="skill-icon">
-          <img src="icons/skills/odoo.svg" class="skill-svg" alt="Odoo ERP">
-        </div>
-        <span>Odoo ERP</span>
         <div class="skill-bar">
-          <div class="skill-level" style="width:85%"></div>
+
+          <div
+                  class="skill-level"
+                  style="width:90%"
+          ></div>
+
         </div>
+
       </div>
+
+
+
+      <!-- Flutter -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/flutter.svg"
+                  class="skill-svg"
+                  alt="Flutter"
+          >
+
+        </div>
+
+        <span>
+          Flutter
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:92%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Java -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/java-svgrepo-com.svg"
+                  class="skill-svg"
+                  alt="Java"
+          >
+
+        </div>
+
+        <span>
+          Java
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:85%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- C++ -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/cplusplus.svg"
+                  class="skill-svg"
+                  alt="C++"
+          >
+
+        </div>
+
+        <span>
+          C++
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:80%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- MySQL -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/mysql.svg"
+                  class="skill-svg"
+                  alt="MySQL"
+          >
+
+        </div>
+
+        <span>
+          MySQL
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:88%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- BLoC -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/block-svgrepo-com.svg"
+                  class="skill-svg"
+                  alt="BLoC"
+          >
+
+        </div>
+
+        <span>
+          BLoC
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:87%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Clean Architecture -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/diagram-3-svgrepo-com.svg"
+                  class="skill-svg"
+                  alt="Clean Architecture"
+          >
+
+        </div>
+
+        <span>
+          Clean Architecture
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:86%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- REST API -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/api-svgrepo-com.svg"
+                  class="skill-svg"
+                  alt="REST API"
+          >
+
+        </div>
+
+        <span>
+          REST API
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:89%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- HTTP -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <i class="fas fa-globe"></i>
+
+        </div>
+
+        <span>
+          HTTP
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:85%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Firebase -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/firebase.svg"
+                  class="skill-svg"
+                  alt="Firebase"
+          >
+
+        </div>
+
+        <span>
+          Firebase
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:84%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Git -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/github.svg"
+                  class="skill-svg"
+                  alt="Git and GitHub"
+          >
+
+        </div>
+
+        <span>
+          Git / GitHub
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:91%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Odoo -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <img
+                  src="icons/skills/odoo.svg"
+                  class="skill-svg"
+                  alt="Odoo ERP"
+          >
+
+        </div>
+
+        <span>
+          Odoo ERP
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:85%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Design Patterns -->
+
+      <div class="skill-box slide-up">
+
+        <div class="skill-icon">
+
+          <i class="fas fa-layer-group"></i>
+
+        </div>
+
+        <span>
+          Design Patterns
+        </span>
+
+        <div class="skill-bar">
+
+          <div
+                  class="skill-level"
+                  style="width:80%"
+          ></div>
+
+        </div>
+
+      </div>
+
+
     </div>
+
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <h2 class="section-title" data-translate="projectsTitle">Projects</h2>
-    <div class="section-subtitle" data-translate="projectsSubtitle">Some of my recent work</div>
+
+
+  <!-- =========================
+       PROJECTS
+  ========================== -->
+
+  <section
+          id="projects"
+          class="section"
+  >
+
+    <h2
+            class="section-title"
+            data-translate="projectsTitle"
+    >
+      Projects
+    </h2>
+
+
+    <div
+            class="section-subtitle"
+            data-translate="projectsSubtitle"
+    >
+      Selected academic and personal projects
+    </div>
+
+
 
     <div class="projects-grid">
+
+
+      <!-- DT-Teeth Patient App -->
+
       <div class="project-card fade-in">
+
         <div class="project-icon">
-          <i class="fas fa-briefcase"></i>
+
+          <i class="fas fa-tooth"></i>
+
         </div>
-        <h3>YallaWork</h3>
-        <p data-translate="yallaworkDesc">Job-seeking app with chat system, user profiles, and job matching algorithm</p>
+
+
+        <h3>
+          DT-Teeth Patient App
+        </h3>
+
+
+        <p data-translate="dtTeethDesc">
+
+          A comprehensive dental clinic management system.
+          I developed the patient mobile application using Flutter,
+          following Clean Architecture and BLoC, with REST API integration,
+          offline-first data access, caching, authentication,
+          and multilingual support.
+
+        </p>
+
+
         <div class="tech-tags">
+
+          <span>Flutter</span>
+          <span>Dart</span>
+          <span>BLoC</span>
+          <span>Clean Architecture</span>
+          <span>REST API</span>
+
+        </div>
+
+
+        <a
+                href="https://github.com/GhinaNouimi/DT.Teeth-patient.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+        >
+
+          <i class="fab fa-github"></i>
+
+          <span data-translate="viewCode">
+            View Code
+          </span>
+
+        </a>
+
+      </div>
+
+
+
+      <!-- Information Retrieval System -->
+
+      <div class="project-card fade-in">
+
+        <div class="project-icon">
+
+          <i class="fas fa-search"></i>
+
+        </div>
+
+
+        <h3>
+          Information Retrieval System
+        </h3>
+
+
+        <p data-translate="informationRetrievalDesc">
+
+          A comprehensive Information Retrieval System built with Python
+          using the Quora dataset from BEIR. The system follows a
+          Service-Oriented Architecture with independent services for
+          preprocessing, indexing, retrieval, embeddings, storage,
+          clustering, evaluation, and API integration.
+
+        </p>
+
+
+        <div class="tech-tags">
+
+          <span>Python</span>
+          <span>Information Retrieval</span>
+          <span>TF-IDF</span>
+          <span>BM25</span>
+          <span>Embeddings</span>
+          <span>BEIR</span>
+
+        </div>
+
+
+        <a
+                href="https://github.com/GhinaNouimi/information-retrieval-system-2026.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+        >
+
+          <i class="fab fa-github"></i>
+
+          <span data-translate="viewCode">
+            View Code
+          </span>
+
+        </a>
+
+      </div>
+
+
+
+      <!-- Distributed Systems -->
+
+      <div class="project-card fade-in">
+
+        <div class="project-icon">
+
+          <i class="fas fa-network-wired"></i>
+
+        </div>
+
+
+        <h3>
+          Distributed Systems Lab
+        </h3>
+
+
+        <p data-translate="distributedSystemsDesc">
+
+          A Distributed Systems project implemented using Java RMI,
+          covering client-server communication, remote interfaces
+          and objects, callbacks, passing remote objects by reference,
+          and Serializable-based value transfer.
+
+        </p>
+
+
+        <div class="tech-tags">
+
+          <span>Java</span>
+          <span>RMI</span>
+          <span>Distributed Systems</span>
+
+        </div>
+
+
+        <a
+                href="https://github.com/GhinaNouimi/DistributedSystemsLab.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+        >
+
+          <i class="fab fa-github"></i>
+
+          <span data-translate="viewCode">
+            View Code
+          </span>
+
+        </a>
+
+      </div>
+
+
+
+      <!-- Telegram Bot -->
+
+      <div class="project-card fade-in">
+
+        <div class="project-icon">
+
+          <i class="fab fa-telegram"></i>
+
+        </div>
+
+
+        <h3>
+          DT-Teeth Telegram Bot
+        </h3>
+
+
+        <p data-translate="telegramBotDesc">
+
+          A rule-based Telegram bot for the DT-Teeth dental center,
+          providing center information, doctors, treatments and prices,
+          specialties, FAQs, post-treatment instructions,
+          and contact information.
+
+        </p>
+
+
+        <div class="tech-tags">
+
+          <span>Telegram Bot</span>
+          <span>Rules-Based</span>
+          <span>k6</span>
+
+        </div>
+
+
+        <a
+                href="https://t.me/DTTeethCenterBot"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+        >
+
+          <i class="fab fa-telegram"></i>
+
+          <span data-translate="viewBot">
+            Open Bot
+          </span>
+
+        </a>
+
+      </div>
+
+
+
+      <!-- YallaWork -->
+
+      <div class="project-card fade-in">
+
+        <div class="project-icon">
+
+          <i class="fas fa-briefcase"></i>
+
+        </div>
+
+
+        <h3>
+          YallaWork
+        </h3>
+
+
+        <p data-translate="yallaworkDesc">
+
+          Job-seeking app with chat system,
+          user profiles, and job matching algorithm.
+
+        </p>
+
+
+        <div class="tech-tags">
+
           <span>Flutter</span>
           <span>Firebase</span>
           <span>Cubit</span>
+
         </div>
-        <a href="https://github.com/GhinaNo/YallaWork" target="_blank" class="project-link">
-          <i class="fab fa-github"></i> <span data-translate="viewCode">View Code</span>
+
+
+        <a
+                href="https://github.com/GhinaNo/YallaWork"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+        >
+
+          <i class="fab fa-github"></i>
+
+          <span data-translate="viewCode">
+            View Code
+          </span>
+
         </a>
+
       </div>
 
+
+
+      <!-- Vera Clinic -->
+
       <div class="project-card fade-in">
+
         <div class="project-icon">
+
           <i class="fas fa-hospital"></i>
-        </div>
-        <h3>Vera Clinic</h3>
-        <p data-translate="veraClinicDesc">Clinic appointment web system with doctor schedules and patient management</p>
-        <div class="tech-tags">
-          <span>Flutter</span>
-          <span>Firebase</span>
-          <span>REST API</span>
-          <span>Bloc</span>
-        </div>
-        <a href="https://github.com/GhinaNo/vera_clinic" target="_blank" class="project-link">
-          <i class="fab fa-github"></i> <span data-translate="viewCode">View Code</span>
-        </a>
-      </div>
 
-      <div class="project-card fade-in">
-        <div class="project-icon">
-          <i class="fas fa-tasks"></i>
-        </div>
-        <h3>To Do App</h3>
-        <p data-translate="todoDesc">Task management mobile app with categories, reminders, and priority levels</p>
-        <div class="tech-tags">
-          <span>Flutter</span>
-          <span>Provider</span>
-        </div>
-        <a href="https://github.com/GhinaNo/Todo-mobile-app" target="_blank" class="project-link">
-          <i class="fab fa-github"></i> <span data-translate="viewCode">View Code</span>
-        </a>
-      </div>
-
-      <div class="project-card fade-in">
-        <div class="project-icon">
-          <i class="fas fa-prescription-bottle-alt"></i>
-        </div>
-        <h3>PharmaApp</h3>
-        <p data-translate="pharmaDesc">Pharmacy mobile application with medicine inventory and prescription tracking</p>
-        <div class="tech-tags">
-          <span>Flutter</span>
-          <span>Firebase</span>
-          <span>REST API</span>
-        </div>
-        <a href="https://github.com/GhinaNo/PharmaApp" target="_blank" class="project-link">
-          <i class="fab fa-github"></i> <span data-translate="viewCode">View Code</span>
-        </a>
-      </div>
-
-      <div class="project-card fade-in">
-        <div class="project-icon">
-          <i class="fas fa-comments"></i>
-        </div>
-        <h3>Eshtikily – اشتكيلي</h3>
-        <p data-translate="eshtikilyDesc">A mobile application for citizens - connecting the government and citizens directly, without intermediaries, to submit and track complaints.</p>
-        <div class="tech-tags">
-          <span>Flutter</span>
-          <span>Firebase</span>
-          <span>REST API</span>
-        </div>
-        <a href="https://github.com/GhinaNo/Eshtikily_mobile_app" target="_blank" class="project-link">
-          <i class="fab fa-github"></i> <span data-translate="viewCode">View Code</span>
-        </a>
-      </div>
-
-      <div class="project-card fade-in">
-        <div class="project-icon">
-          <i class="fas fa-hospital"></i>
         </div>
 
-        <h3>Smart Hospital ERP System</h3>
 
-        <p data-translate="smartHospitalDesc">
-          Developed and customized an Odoo ERP solution for a Smart Mobile Hospital, including role-based access control (RBAC), CRM triage workflows, inventory and maintenance management, preventive maintenance scheduling, and API-based IoT integration.
+        <h3>
+          Vera Clinic
+        </h3>
+
+
+        <p data-translate="veraClinicDesc">
+
+          Web application designed to manage a beauty clinic,
+          providing features for clinic administration and staff,
+          including appointment scheduling, employee management,
+          and client tracking.
+
         </p>
 
+
         <div class="tech-tags">
+
+          <span>Flutter</span>
+          <span>Firebase</span>
+          <span>REST API</span>
+          <span>BLoC</span>
+
+        </div>
+
+
+        <a
+                href="https://github.com/GhinaNo/vera_clinic"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+        >
+
+          <i class="fab fa-github"></i>
+
+          <span data-translate="viewCode">
+            View Code
+          </span>
+
+        </a>
+
+      </div>
+
+
+
+      <!-- Eshtikily -->
+
+      <div class="project-card fade-in">
+
+        <div class="project-icon">
+
+          <i class="fas fa-comments"></i>
+
+        </div>
+
+
+        <h3>
+          Eshtikily – اشتكيلي
+        </h3>
+
+
+        <p data-translate="eshtikilyDesc">
+
+          A mobile application for citizens,
+          connecting the government and citizens directly,
+          without intermediaries, to submit and track complaints.
+
+        </p>
+
+
+        <div class="tech-tags">
+
+          <span>Flutter</span>
+          <span>Firebase</span>
+          <span>REST API</span>
+
+        </div>
+
+
+        <a
+                href="https://github.com/GhinaNo/Eshtikily_mobile_app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+        >
+
+          <i class="fab fa-github"></i>
+
+          <span data-translate="viewCode">
+            View Code
+          </span>
+
+        </a>
+
+      </div>
+
+
+
+      <!-- Smart Hospital -->
+
+      <div class="project-card fade-in">
+
+        <div class="project-icon">
+
+          <i class="fas fa-hospital"></i>
+
+        </div>
+
+
+        <h3>
+          Smart Hospital ERP System
+        </h3>
+
+
+        <p data-translate="smartHospitalDesc">
+
+          Developed and customized an Odoo ERP solution for a
+          Smart Mobile Hospital, including role-based access control,
+          CRM triage workflows, inventory and maintenance management,
+          preventive maintenance scheduling, and API-based IoT integration.
+
+        </p>
+
+
+        <div class="tech-tags">
+
           <span>Odoo ERP</span>
           <span>Python</span>
           <span>XML</span>
           <span>CRM</span>
           <span>Inventory</span>
           <span>Maintenance</span>
+
         </div>
+
       </div>
+
+
     </div>
+
   </section>
 
-  <!-- EDUCATION -->
-  <section id="education" class="section">
-    <h2 class="section-title" data-translate="educationTitle">Education</h2>
-    <div class="section-subtitle" data-translate="educationSubtitle">My academic journey</div>
+
+
+  <!-- =========================
+       EDUCATION
+  ========================== -->
+
+  <section
+          id="education"
+          class="section"
+  >
+
+    <h2
+            class="section-title"
+            data-translate="educationTitle"
+    >
+      Education
+    </h2>
+
+
+    <div
+            class="section-subtitle"
+            data-translate="educationSubtitle"
+    >
+      My academic journey
+    </div>
+
 
     <div class="edu-box slide-up">
+
+
       <div class="edu-icon">
+
         <i class="fas fa-university"></i>
+
       </div>
+
+
       <div class="edu-content">
-        <h3 data-translate="university">Damascus University</h3>
-        <p class="edu-degree" data-translate="degree">
-          Information Technology Engineering –- Software Engineering
+
+        <h3 data-translate="university">
+          Damascus University
+        </h3>
+
+
+        <p
+                class="edu-degree"
+                data-translate="degree"
+        >
+          Information Technology Engineering – Software Engineering
         </p>
+
+
         <div class="edu-date">
+
           <i class="far fa-calendar-alt"></i>
-          <span>2021 – Present</span>
+
+          <span>
+            2021 – 2026
+          </span>
+
         </div>
+
       </div>
+
     </div>
+
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <h2 class="section-title" data-translate="contactTitle">Contact</h2>
-    <div class="section-subtitle" data-translate="contactSubtitle">Let's work together!</div>
+
+
+  <!-- =========================
+       CONTACT
+  ========================== -->
+
+  <section
+          id="contact"
+          class="section"
+  >
+
+    <h2
+            class="section-title"
+            data-translate="contactTitle"
+    >
+      Contact
+    </h2>
+
+
+    <div
+            class="section-subtitle"
+            data-translate="contactSubtitle"
+    >
+      Let's work together!
+    </div>
+
 
     <div class="contact-grid fade-in">
+
+
       <div class="contact-info">
+
+
         <div class="contact-item">
+
           <div class="contact-icon">
+
             <i class="fas fa-envelope"></i>
+
           </div>
+
+
           <div>
-            <h4 data-translate="email">Email</h4>
-            <p>ghinwano003@gmail.com</p>
+
+            <h4 data-translate="email">
+              Email
+            </h4>
+
+            <p>
+              ghinwano003@gmail.com
+            </p>
+
           </div>
+
         </div>
 
+
+
         <div class="contact-item">
+
           <div class="contact-icon">
+
             <i class="fas fa-phone"></i>
+
           </div>
+
+
           <div>
-            <h4 data-translate="phone">Phone</h4>
-            <p>+963 962 056 061</p>
+
+            <h4 data-translate="phone">
+              Phone
+            </h4>
+
+            <p>
+              +963 962 056 061
+            </p>
+
           </div>
+
         </div>
 
+
+
         <div class="contact-item">
+
           <div class="contact-icon">
+
             <i class="fas fa-map-marker-alt"></i>
+
           </div>
+
+
           <div>
-            <h4 data-translate="location">Location</h4>
-            <p>Daraa, Syria</p>
+
+            <h4 data-translate="location">
+              Location
+            </h4>
+
+            <p>
+              Daraa, Syria
+            </p>
+
           </div>
+
         </div>
+
+
 
         <div class="contact-hours">
-          <h4 data-translate="availableFor">Available For</h4>
+
+          <h4 data-translate="availableFor">
+            Available For
+          </h4>
+
+
           <ul>
-            <li data-translate="flutterProjects">Flutter Development Projects</li>
-            <li data-translate="consultations">Mobile App Consultations</li>
-            <li data-translate="freelance">Freelance Opportunities</li>
+
+            <li data-translate="flutterProjects">
+              Flutter Development Projects
+            </li>
+
+            <li data-translate="consultations">
+              Mobile App Consultations
+            </li>
+
+            <li data-translate="freelance">
+              Freelance Opportunities
+            </li>
+
           </ul>
+
         </div>
+
       </div>
+
+
 
       <form
               name="contact"
@@ -456,8 +1635,16 @@
               data-netlify="true"
               class="contact-form"
       >
-        <input type="hidden" name="form-name" value="contact">
+
+        <input
+                type="hidden"
+                name="form-name"
+                value="contact"
+        >
+
+
         <div class="form-group">
+
           <input
                   type="text"
                   id="form-name"
@@ -466,10 +1653,15 @@
                   placeholder="Your Name"
                   required
           >
+
           <i class="fas fa-user"></i>
+
         </div>
 
+
+
         <div class="form-group">
+
           <input
                   type="email"
                   id="form-email"
@@ -478,63 +1670,158 @@
                   placeholder="Your Email"
                   required
           >
+
           <i class="fas fa-envelope"></i>
+
         </div>
 
-        <!-- احذفي حقل Subject بالكامل (غير مستخدم) -->
+
 
         <div class="form-group">
-    <textarea
-            id="form-message"
-            name="message"
-            data-placeholder="messagePlaceholder"
-            placeholder="Your Message"
-            rows="5"
-            required
-    ></textarea>
+
+          <textarea
+                  id="form-message"
+                  name="message"
+                  data-placeholder="messagePlaceholder"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+          ></textarea>
+
           <i class="fas fa-comment"></i>
+
         </div>
 
-        <button type="submit" class="submit-btn">
+
+
+        <button
+                type="submit"
+                class="submit-btn"
+        >
+
           <i class="fas fa-paper-plane"></i>
-          <span data-translate="sendMessage">Send Message</span>
+
+          <span data-translate="sendMessage">
+            Send Message
+          </span>
+
         </button>
+
       </form>
+
     </div>
+
   </section>
 
 </main>
 
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
 <footer>
+
   <div class="footer-content">
+
+
     <p class="copyright">
-      &copy; <span id="current-year">2025</span> Ghina Alnouimi.
-      <span data-translate="rights">All rights reserved.</span>
+
+      &copy;
+
+      <span id="current-year">
+        2026
+      </span>
+
+      Ghina Alnouimi.
+
+      <span data-translate="rights">
+        All rights reserved.
+      </span>
+
     </p>
 
-    <a href="https://github.com/GhinaNo" class="social-icon" target="_blank">
-      <img src="icons/accounts/github.svg" class="account-svg" alt="GitHub">
+
+
+    <a
+            href="https://github.com/GhinaNo"
+            class="social-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+    >
+
+      <img
+              src="icons/accounts/github.svg"
+              class="account-svg"
+              alt="GitHub"
+      >
+
     </a>
 
-    <a href="https://www.linkedin.com/in/ghina-alnouimi-593019396" class="social-icon" target="_blank">
-      <img src="icons/accounts/linkedin-svgrepo-com.svg" class="account-svg" alt="LinkedIn">
+
+
+    <a
+            href="https://www.linkedin.com/in/ghina-alnouimi-593019396"
+            class="social-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+    >
+
+      <img
+              src="icons/accounts/linkedin-svgrepo-com.svg"
+              class="account-svg"
+              alt="LinkedIn"
+      >
+
     </a>
 
-    <a href="https://www.instagram.com/ghina.al.nouimi" class="social-icon" target="_blank">
-      <img src="icons/accounts/instagram-167-svgrepo-com.svg" class="account-svg" alt="Instagram">
+
+
+    <a
+            href="https://www.instagram.com/ghina.al.nouimi"
+            class="social-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+    >
+
+      <img
+              src="icons/accounts/instagram-167-svgrepo-com.svg"
+              class="account-svg"
+              alt="Instagram"
+      >
+
     </a>
 
-    <a href="#home" class="back-to-top" data-scroll="#home" aria-label="Back to top">
+
+
+    <a
+            href="#home"
+            class="back-to-top"
+            data-scroll="#home"
+            aria-label="Back to top"
+    >
+
       <i class="fas fa-arrow-up"></i>
+
     </a>
+
+
   </div>
+
 </footer>
 
 
 
 <script src="script.js"></script>
 
-<div class="menu-overlay" id="menu-overlay"></div>
+
+<div
+        class="menu-overlay"
+        id="menu-overlay"
+></div>
+
 
 </body>
+
 </html>
